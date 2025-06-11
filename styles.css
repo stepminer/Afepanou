@@ -1,0 +1,146 @@
+/* Reset and basic setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Amazon Ember', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #FFD700; /* Gold */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: #0055A4; /* Haitian Blue */
+}
+
+nav a:hover {
+  color: #EF3340; /* Haitian Red */
+}
+
+/* Main banner or hero section */
+.hero {
+  background: linear-gradient(135deg, #FFD700 0%, #fff5cc 100%);
+  color: #111;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  background-color: #FFD700;
+  color: #111;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #EF3340; /* Red on hover */
+  color: #fff;
+}
+
+/* Product cards */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #0055A4; /* Haitian Blue titles */
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  color: #EF3340;
+}
+
+/* Special patriot banner */
+.patriot-banner {
+  background: linear-gradient(90deg, #0055A4 0%, #EF3340 100%);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
