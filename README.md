@@ -33,8 +33,8 @@ Le site est optimisé pour les moteurs de recherche avec des mots-clés pertinen
 
 ## 🔗 Liens utiles
 
-- [Visitez le site web](https://afepanou.com)
-- [Nos services](https://afepanou.com/services)
+- Visitez le site web https://www.afepanou.com/
+- - - [Nos services](https://afepanou.com/services)
 - [Contactez-nous](mailto:info@afepanou.com)
 
 ---
